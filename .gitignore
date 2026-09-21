@@ -1,0 +1,20 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 虚拟环境
+.venv/
+
+# 下载的数据集：体积大、可以重新下载，只保留说明文件
+data/*
+!data/README.md
+
+# 课程数据集图片（蚂蚁 / 蜜蜂）
+dataset/
+
+# TensorBoard 日志：每次运行都会变化
+logs/
+logs_archive/
+
+# macOS
+.DS_Store
