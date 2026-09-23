@@ -48,7 +48,7 @@
 - 课程：B 站小土堆《PyTorch深度学习快速入门教程》，配套仓库 `xiaotudui/pytorch-tutorial`
 - 节奏：每天 90 分钟；计划见 `深度学习-15天学习计划.md`
 - 目录约定：
-  - `note/dayN.ipynb`：每天的笔记
+  - `note/序号_内容.ipynb`：按主题命名的笔记，一眼能看出内容（如 `09_Conv2d参数与reshape.ipynb`、`10_最大池化MaxPool2d.ipynb`）
   - `src/*.py`：练习代码（`P8_` / `P9_` / `P10_` 前缀对应课程分P）
   - `dataset/`：蚂蚁蜜蜂图片；`data/`：CIFAR10 等下载的数据集
   - `logs/<日期>_<实验名>/`：TensorBoard 日志，一次运行一个子目录

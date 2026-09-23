@@ -20,9 +20,9 @@ TensorBoard 就找不到根目录的记录了。
 | Day | 文件 | 状态 |
 | --- | --- | --- |
 | 1 | `../test_torch.py`（按计划留在根目录） | ✅ 环境自检通过 |
-| 2 | —（见 `note/day2.ipynb`） | ✅ 法宝函数 |
+| 2 | —（见 `note/02_法宝函数dir与help.ipynb`） | ✅ 法宝函数 |
 | 3 | `read_data.py` | ✅ 原根目录同名文件迁入 |
-| 4 | `P8_Tensorboard.py` | ✅ 由 `note/day4.ipynb` 已跑通代码整理 |
+| 4 | `P8_Tensorboard.py` | ✅ 由 `note/04_TensorBoard使用.ipynb` 已跑通代码整理 |
 | 5 | `P9_transforms.py` | ✅ 原名 `transforms_learning.py` |
 | 6 | `P10_dataset_transform.py` | ⬜ 待写 |
 | 7 | `dataloader.py` | ⬜ 待写（数据集下载到 `../data/`） |

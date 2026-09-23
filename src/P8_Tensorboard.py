@@ -7,7 +7,7 @@ Day 4 · TensorBoard
     python src/P8_Tensorboard.py
     tensorboard --logdir=logs
 
-说明：本文件是把 note/day4.ipynb 里已跑通的代码整理成的脚本版；
+说明：本文件是把 note/04_TensorBoard使用.ipynb 里已跑通的代码整理成的脚本版；
       笔记里 markdown 的进阶示例（tensor CHW / add_images 批量）没有落成代码。
 """
 from torch.utils.tensorboard import SummaryWriter
