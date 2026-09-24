@@ -24,12 +24,14 @@ class Model(nn.Module):
     def __init__(self):
         super().__init__()
         self.conv1 = Conv2d(in_channels=3, out_channels=6, kernel_size=3, stride=1, padding=0)
+        self.conv2 = Conv2d(in_channels=6, out_channels=3, kernel_size=3, stride=1, padding=0)
 
     def forward(self, x):
-        x = self.conv1(x)
-        return x
+        self.x1 = self.conv1(x)
+        self.x2 = self.conv2(self.x1)
+        return self.x2
 
-writer = SummaryWriter("logs/nn_conv2d")
+writer = SummaryWriter("logs/nn_conv2d_2")
 model = Model()
 
 step = 0
@@ -40,7 +42,6 @@ for data in dataloader:
     print(output.shape)
 
     writer.add_images("input", imgs, step)
-    output = torch.reshape(output, (-1, 3, 30, 30))
     writer.add_images("output", output, step)
     step = step + 1
 
