@@ -6,8 +6,6 @@ Day 8 · 神经网络骨架 nn.Module
 在项目根目录运行：python src/nn_module.py
 """
 
-# TODO: 按计划写你的代码
-
 import torch
 from torch import nn
 

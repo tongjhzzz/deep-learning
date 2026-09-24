@@ -6,8 +6,6 @@ Day 9 · 卷积层
 在项目根目录运行：python src/nn_conv2d.py
 """
 
-# TODO: 按计划写你的代码
-
 import torch
 import torchvision
 from torch.utils.data import DataLoader

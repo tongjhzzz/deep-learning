@@ -6,10 +6,6 @@ Day 9 · 最大池化
 在项目根目录运行：python src/nn_maxpool.py
 """
 
-# TODO: 按计划写你的代码
-
-
-
 import torch
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
@@ -36,7 +32,7 @@ model = Model()
 step = 0
 for data in dataloader:
     imgs, targets = data
-    writer.add_images("imput", imgs, step)
+    writer.add_images("input", imgs, step)
     output = model(imgs)
     writer.add_images("output", output, step)
     step += 1
