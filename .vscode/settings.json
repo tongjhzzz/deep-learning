@@ -12,5 +12,6 @@
     { "name": "cuda", "depth": 3, "includeAllSymbols": true },
     { "name": "torch", "depth": 5, "includeAllSymbols": true },
     { "name": "torchvision", "depth": 5, "includeAllSymbols": true }
-  ]
+  ],
+  "python.REPL.enableREPLSmartSend": false
 }
